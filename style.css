@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #333;
+  color: white;
+  height: 1200vh;
+}
+
+.btn {
+  cursor: pointer;
+  outline: none;
+  box-shadow: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.counter-container {
+  display: flex;
+  margin: auto;
+  height: 100vh;
+  width: 13em;
+}
+
+.counter-container__button {
+  width: 3rem;
+  height: 2rem;
+  margin: auto;
+  border-radius: 10em;
+  transition: transform 0.5s;
+}
+
+.counter-container__button:hover {
+  transform: scale(1.1);
+}
+
+.counter-container__button:active {
+  transform: scale(1);
+}
+
+.counter-container__counter {
+  margin: 1em;
+  width: 5em;
+  text-align: center;
+  margin: auto;
+}
+
+.sucess {
+  color: lightgreen;
+}
+
+.warning {
+  color: darkorange;
+}
+
+.danger {
+  color: crimson;
+}
